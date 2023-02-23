@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Noto Serif";
+}
+.nombre {
+    font-size: 60px
+}
+
+.datos:hover {
+    animation-duration: 3s;
+    animation-name: slidein;
+    background-color: black;
+    color: white;
+}
+
+.pattern{
+    background-color: beige;
+}
+
+.cuerpo-competencias{
+    display: none;
+}
+
+.card-competencias:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+
+p,li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
